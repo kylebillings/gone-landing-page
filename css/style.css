@@ -29,7 +29,7 @@ body {
 					height: 100%;
 				}
 					.Side-left-image {
-						background:url(http://i.imgur.com/qbyu86x.png) center no-repeat transparent;
+						background:url(../images/sell-ipad.svg) center no-repeat transparent;
 						height: 100%;
 						left: 50%;
 						position: absolute;
@@ -51,7 +51,7 @@ body {
 						right: 0;
 						width: 100%;
 						height: 100%;
-						background: url(http://i.imgur.com/fASrI9o.png) center no-repeat transparent;
+						background: url(../images/buy-ipad.svg) center no-repeat transparent;
 					}
 
 .Signature {
