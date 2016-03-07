@@ -2,26 +2,33 @@ body {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
+	height: 100%;
 }
 .button {
 	border: none;
 	border-radius: 4px;
-	position: absolute;
-	z-index: 99999;
 	padding: 15px 25px 15px 25px;
 	font-size: 22px;
+}
+.button-primary-container {
+	top: 20px;
+	left: 20px;
+	position: absolute;
+	z-index: 99999;
+}
+.button-secondary-container {
+	bottom: 20px;
+	right: 20px;
+	position: absolute;
+	z-index: 99999;
 }
 .button-primary {
 	background-color: #44b6ff;
 	color: #fff;
-	top: 20px;
-	left: 20px;
 }
 .button-secondary {
 	background-color: #fff;
 	color: #44b6ff;
-	bottom: 20px;
-	right: 20px;
 }
 	.Home {
 		display: block;
