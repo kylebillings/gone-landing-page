@@ -1,27 +1,6 @@
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
 
 @font-face {
-    font-family: 'OmnesRegular';
-    src: url('../fonts/_light-webfont.eot');
-    src: url('../fonts/omnes_light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/omnes_light-webfont.woff') format('woff'),
-         url('../fonts/omnes_light-webfont.ttf') format('truetype'),
-         url('../fonts/omnes_light-webfont.svg#OmnesRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'OmnesThin';
-    src: url('../fonts/omnes_extralight-webfont.eot');
-    src: url('../fonts/omnes_extralight-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/omnes_extralight-webfont.woff') format('woff'),
-         url('../fonts/omnes_extralight-webfont.ttf') format('truetype'),
-         url('../fonts/omnes_extralight-webfont.svg#OmnesRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
     font-family: 'ChronicaBook';
     src: url('../fonts/ChronicaPro-Book.ttf');
     src: url('../fonts/ChronicaPro-Book.ttf') format('truetype');
@@ -59,6 +38,39 @@ body {
 	height: 100%;
 	font: 18px/30px 'ChronicaBook', Helvetica Neue, Helvetica, Arial;
 }
+h3 {
+	font-family: 'ChronicaPro-UltraLight';
+	font-size: 28px;
+	margin-bottom: 5px;
+}
+.mobileHome {
+	height: 100%;
+	text-align: center
+}
+.mobileHome p {
+	font-size: 12px;
+	line-height: 16px
+}
+.mobileHome h3 {
+	font-size: 22px;
+	line-height: 22px;
+}
+.mobileHome a {
+	text-decoration: none;
+}
+.blue {
+	color: #44b6ff;
+}
+.buying {
+	color: #fff;
+	background-color: #44b6ff;
+	overflow: hidden;
+}
+.vertical-half {
+	height: 50%;
+	display: block;
+	position: relative;
+}
 .page {
 	height: 100%;
 }
@@ -67,6 +79,9 @@ body {
 	border-radius: 4px;
 	padding: 15px 25px 15px 25px;
 	font-size: 22px;
+}
+.button:hover {
+	cursor: pointer;
 }
 .button-primary-container {
 	top: 20px;
@@ -90,9 +105,15 @@ body {
 	background-color: #44b6ff;
 	color: #fff;
 }
+.button-primary:hover {
+	background-color: #4BC8FF;
+}
 .button-secondary {
 	background-color: #fff;
 	color: #44b6ff;
+}
+.button-secondary:hover {
+	background-color: #f9f9f9;
 }
 	.Home {
 		display: block;

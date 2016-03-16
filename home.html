@@ -46,21 +46,23 @@
     <!-- ref:include analytics-google-tag-manager -->
     <!-- endref -->
 
-    <div class="page">
+    <div class="page js-Home-desktop-wrapper">
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <div class="Home">
+        <div class="Home" style="display: none">
           <div class="button-primary-container">
+            <h3>The Gone App</h3>
             <p>Get a price, tell us where to pick up your items, and we'll take care of the rest.</p>
             <button class="button button-primary">Start Selling</button>
           </div>
           <div class="button-secondary-container">
+            <h3>Gone Marketplace</h3>
             <p>Browse our full-service marketplace of fully inspected used goods. </p>
             <button class="button button-secondary">Start Buying</button>
           </div>
-        <div class="Home-wrapper js-Home-desktop-wrapper">
+        <div class="Home-wrapper">
           <section class="Side-left js-Side-left">
             <div class="Side-left-wrapper">
               <div class="Side-left-image js-Side-left-image"></div>
@@ -71,20 +73,24 @@
           </section>
         </div>
       </div>
+      <div class="mobileHome">
+        <a href="#"><div class="vertical-half buying">
+            <h3>Tap to Buy</h3>
+            <img style="width: 40%;" src="images/buy-ipad.svg" alt="">
+            <div style="width: 80%; margin: 0 auto;">
+                <p>Browse our full-service marketplace of fully inspected used goods.</p>
+            </div>
+        </div></a>
+        <a href=""><div class="vertical-half selling">
+            <h3 class="blue">Tap to Sell</h3>
+            <img style="width: 40%;" src="images/sell-ipad.svg" alt="">
+            <div style="width: 80%; margin: 0 auto;">
+                <p class="blue">Get a price, tell us where to pick up your items, and we'll take care of the rest.</p>
+            </div>
+        </div></a>
+      </div>
       
 
-        <div class="footer-container">
-            <footer class="wrapper text-center">
-                <img alt="" src="img/gone-02.svg" style=
-                "width: 40px; margin-bottom: 10px;"><br>
-                <a href="terms.html">Terms of Use</a> | <a href=
-                "privacy.html">Privacy</a> | <a href="https://angel.co/gone-1" target="_blank">Jobs</a>
-                <br><br>
-                <!-- ref:include analytics-mixpanel -->
-                <a href="https://mixpanel.com/f/partner"><img src="//cdn.mxpnl.com/site_media/images/partner/badge_light.png" alt="Mobile Analytics" /></a>
-                <!-- endref -->
-            </footer>
-        </div>
     </div><!-- page -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> <script>
 window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
