@@ -44,6 +44,7 @@ h3 {
 	margin-bottom: 5px;
 }
 .mobileHome {
+	display: none;
 	height: 100%;
 	text-align: center
 }
@@ -201,4 +202,12 @@ h3 {
 .header-container,
 .footer-container,
 .main aside {
+}
+@media screen and (max-width: 600px) {
+	.Home {
+		display: none;
+	}
+	.mobileHome {
+		display: block;
+	}
 }
