@@ -1,0 +1,409 @@
+@font-face { font-family: Omnes; src: url('../fonts/OMNES-ME_0.otf'); }
+@font-face { font-family: Omnes; font-weight: lighter; font-style: italic; src: url('../fonts/OMNES-01_0.otf'); }
+@font-face { font-family: Omnes; font-weight: bold; font-style: italic; src: url('../fonts/OMNES-BI_0.otf'); }
+@font-face { font-family: Omnes; font-weight: bold; src: url('../fonts/OMNES-BO_0.otf'); }
+@font-face { font-family: Omnes; font-weight: lighter; src: url('../fonts/OMNES-EL_0.otf'); }
+
+body { font-family: Omnes, Verdana, sans-serif; }
+a { text-decoration: none; }
+
+.hidden {
+  display: none;
+}
+
+.menu-top-container {
+    position: fixed;
+    z-index: 10;
+    right: auto;
+    width: 100%;
+    background-color: #44B6FF;
+    height: 45px;
+}
+.menu-top-container .buttons{
+    border: none;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 300;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.menu-top-container .buttons a {
+    margin: 0;
+    color: #FFFFFF;
+    height: 45px;
+    display: inline-block;
+    padding: 10px;
+}
+.menu-top-container .buttons a:hover {
+    color: #fff;
+}
+.screen-tracker {
+  top: 83px;
+  left: auto;
+  right: 50px;
+}
+.screen-tracker .node {
+  background-color: #b3d4fc;
+}
+.screen-tracker .node .active-node {
+  background-color: #488cc8;
+}
+.content-container.section-0 .masthead-content {
+    height: 100%;
+    background: url("../images/home_back1.jpg") no-repeat center center;
+    background-size: cover;
+}
+#content-container-0 {
+  z-index: 0;
+}
+.content-container.section-8 .masthead-content {
+    height: 100%;
+    background: url("../images/home_back3.jpg") no-repeat center center;
+    background-size: cover;
+}
+.content-container.section-9 .masthead-content {
+    height: 100%;
+    background: url("../images/home_back4.jpg") no-repeat center center;
+    background-size: cover;
+}
+.content-container.section-10 .masthead-content {
+    height: 100%;
+    background: url("../images/home_back5.jpg") no-repeat center center;
+    background-size: cover;
+}
+.sign-up-nav-container {
+    right: auto;
+    left: 30px;
+}
+.sign-up-nav-container .sign-up-button{
+    border: none;
+}
+.logo-container {
+  position: absolute;
+  top: auto;
+  left: auto;
+  right: 80px;
+  height: 100%;
+  width: 350px;
+  background-color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+}
+.logo-container img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.logo-container .tagline {
+  font-size: 28px;
+  font-weight: 300;
+  margin-left: 0px;
+  color: #000;
+  text-shadow: none;
+  filter: none;
+}
+.text-container {
+    position: absolute;
+    top: auto;
+  left: auto;
+  right: 80px;
+  height: 100%;
+  width: 350px;
+  background-color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+}
+.text-container h1{
+    padding-top: 80px;
+    padding: 80px 20px 20px;
+    font-size: xx-large;
+}
+.text-container p {
+    font-size: x-large;
+    padding: 0px 20px;
+}
+.items-to-ship {
+    width: auto;
+  left: 0%;
+  margin-left: -40px;
+  top: 40%;
+}
+
+.iphone-container-text {
+  width: 100%;
+  height: 100%;
+  z-index: 20;
+  position: absolute;
+  opacity: 0;
+}
+
+@media only screen and (max-height: 850px) {
+    .items-to-ship {
+      width: auto;
+      left: 0%;
+      margin-left: -40px;
+      top: 40%;
+    }
+}
+.iphone-container {
+  width: 440px;
+  position: absolute;
+  left: 0%;
+  margin-left: 170px;
+  opacity: 0;
+  top: 35%;
+}
+@media only screen and (max-height: 850px) {
+    .iphone-container {
+        width: 440px;
+        position: absolute;
+        left: 0%;
+        margin-left: 170px;
+        opacity: 0;
+        top: 35%;
+      }
+}
+.iphone {
+  width: 317px;
+  position: absolute;
+  z-index: 1;
+}
+.iphone-screen {
+  position: absolute;
+  height: 343px;
+  width: 255px;
+  background-color: white;
+  z-index: 2;
+  top: 120px;
+  left: 41px;
+  overflow: hidden;
+}
+.iphone-screen-photo {
+    background-color: #FFF;
+  position: absolute;
+  z-index: 2;
+  top: -40px;
+}
+
+@media only screen and (max-height: 850px) {
+  .iphone {
+    width: 317px;
+  }
+  .iphone-screen {
+    height: 343px;
+    width: 255px;
+    top: 120px;
+  left: 41px;
+  }
+  .iphone-screen-photo {
+
+  }
+  .header-text-container {
+    top: 6%;
+  }
+  .header-text-container .header-text {
+    font-weight: 600;
+    color: #363636;
+    padding-bottom: 5px;
+  }
+  .signup-form-container .or {
+    display: none;
+  }
+  .footer {
+    height: 86px;
+  }
+  .footer .next-city {
+    bottom: 86px;
+  }
+}
+/* Large screens ----------- */
+@media only screen and (max-width: 1824px) {
+  /* Styles */
+}
+/* iPhone 4 ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+  /* Styles */
+}
+
+.story-gone-form {
+    position      : absolute;
+    z-index       : 1;
+    width         : 100%;
+    min-height : 500px;
+    min-height : 100%;
+    padding-top: 4%;
+    text-align: center;
+    margin        : 0px;
+}
+
+.footer-gone {
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    width: 100%;
+    height: 194px;
+    background-image: url(../images/home_menu_bars.png);
+    background-position-y: 73px;
+}
+
+.footer-gone .menu1 { padding-left: 100px; height: 73px; line-height: 73px; font-size: x-large; text-transform: uppercase; }
+.footer-gone .menu1 a:hover { color: #488cc8; }
+.footer-gone .menu2 { padding-left: 100px; line-height: 48px; height: 48px; text-transform: uppercase; font-weight: lighter; }
+.footer-gone .right { float: right; margin-right: 100px; text-align: right; }
+.footer-gone a { float: left; display: block; cursor: pointer; }
+.footer-gone .menu1 a { color: #000; margin-right: 60px; }
+.footer-gone .menu2 a { color: #FFF; margin-right: 20px; }
+
+.footer-gone .right a { display: inline-block; float: none; margin-right: 0px; }
+.footer-gone .menu1 .right img { margin-top: 15px; margin-bottom: -15px; }
+.footer-gone .menu2 .right img { margin-top: 8px;}
+
+.logo_gone .logo { }
+.logo_gone h2 { margin-top: 50px;}
+
+.clear { clear: both; }
+
+h2, h1 { color: #000; position: relative; font-weight: lighter; font-family: "Omnes", Verdana, sans-serif; line-height: 1.1em;  }
+
+.story-gone h2, .story-gone-form h2 { text-transform: uppercase; }
+
+p { color: #000; font-weight: 300; font-family: "Omnes", Verdana, sans-serif; margin-top: 30px; font-size: x-large; line-height: 1.2em; }
+
+form .text { background: none; padding-left: 15px; font-family: "Omnes", Verdana, sans-serif; font-size: x-large; background-image: url(../images/home_form_field.png); background-repeat: no-repeat; width: 445px;  height: 72px; border: 0px; margin-bottom: 15px; font-weight: lighter; }
+form .button { background: none; border: none; }
+
+.web { width: 1000px; margin: 0 auto; padding-bottom: 110px; }
+.web h1 { font-size: 55px; text-transform: uppercase; }
+
+.fixed-footer { position: fixed;}
+
+.table-teams { text-align: center; }
+.table-teams img { width: 190px; }
+.table-teams p { font-size: medium; margin: 10px; }
+
+.header-partner { background-color: #44b6ff; min-height: 250px; padding: 0; margin: 0; padding-top: 30px; }
+.header-partner h1 { text-align: center; color: #FFF; font-weight: 100; padding: 0; margin: 0; font-size: 55px; text-transform: uppercase; font-family: "Omnes", Verdana, sans-serif;  }
+.header-partner .text { width: 650px; margin: 20px auto; color: #FFF; font-size: 22px; font-weight: 100; display: table;  }
+.header-partner .text img { float: left; margin-right: 15px;  }
+.header-partner .text p { color: #FFF; height: 100%; display: table-cell; vertical-align: middle; }
+
+.buttons-apps img { width: 190px; margin-bottom: -20px; padding: 0px; }
+
+#video-box { position: absolute; top: 0; background-image: url(../images/backt.png); width: 100%; height: 100%; z-index: 9; display: none; }
+#video-box .container { display: table-cell; vertical-align: middle; text-align: center; }
+
+
+
+
+.contactoss img { vertical-align: middle; }
+.contactoss li { list-style: none; list-style-type: none; }
+.contactoss a { color: #333; text-decoration: none; }
+
+
+.thumbnail-container{
+    width: 510px;
+    height: 312px;
+    background-color: #000;
+    top: 50%;
+    margin-top: -136px;
+    margin-left: -331px;
+    z-index: 5;
+    position: absolute;
+    left: 39%;
+    background-image: url('../images/video-thumb.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.play-button{
+    background-image: url('../images/play-icon.png');
+    left: 205px;
+    top: 106px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+.thumbnail-overlay {
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 0.5s ease;
+    cursor: pointer;
+}
+
+.thumbnail-overlay:hover {
+    opacity: 0;
+}
+
+#media-partners{
+  width: 100%;
+  height: 75px;
+  background-color: #F5F5F5;
+  text-align: center;
+}
+#media-partners img{
+  max-height: 45px;
+  max-width: 200px;
+  padding: 21px 18px 0 18px;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+
+#media-partners img.slashgear-logo{
+  /*max-width: 200px;
+  max-height: 60px;*/
+}
+
+#media-partners img.techstars-logo{
+  max-width: 130px;
+  max-height: 60px;
+}
+
+.gone-logo{
+  margin: 80px 0 30px 0 !important;
+}
+
+.links-container{
+    width: 410px;
+    right: 30px;
+    display: block;
+    position: absolute;
+}
+
+#video-overlay{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    display: block;
+    position: absolute;
+    z-index: 50;
+}
+
+.hidden{
+    display: none;
+}
+
+
+.form-app-buttons-container{
+  margin-top: 10px;
+}
+.form-app-buttons-container a{
+  padding: 0 20px;
+}
+.form-app-buttons-container a .ios{
+  height: 58px;
+}
+
+
+.error{
+  color: #F9234B;
+}
+.success{
+  color: #12aa4B;
+}
+.mixpanel-badge {
+  margin-left: 80px;
+  margin-top: -2px;
+}

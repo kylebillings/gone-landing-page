@@ -1,0 +1,32 @@
+.center {
+    text-align: center;
+}
+
+.category-image{
+    max-width: 100%;
+}
+
+@media only screen and (max-height: 850px) {
+    .category-image{
+        max-width: 100px;
+    }
+}
+#what-sells {
+	padding: 25px;
+	text-align: left;
+}
+ul {
+  position:relative;
+  list-style:none;
+  padding:0;
+  border-left:1px solid #e1e1e1;
+}
+ul li{
+  font-size:18px;
+  margin-bottom:15px;
+  line-height:22px;
+  padding-left:20px;
+}
+ul  li:last-child{
+  margin-bottom:0px
+}

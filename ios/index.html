@@ -1,0 +1,59 @@
+<html>
+<head>
+    <title></title>
+    <script type="text/javascript">
+          var appurl = 'gone://home';
+          var appstore = 'itms-apps://itunes.apple.com/us/app/pages/id874081936?mt=8&uo=4';
+          var site = 'http://thegoneapp.com/';
+
+          var timeout;
+          function preventPopup() {
+            clearTimeout(timeout);
+            timeout = null;
+            window.removeEventListener('pagehide', preventPopup);
+          }
+          function startApp() {
+            document.location = appurl;
+            timeout = setTimeout(function(){
+              if(confirm('You do not seem to have Gone! installed, do you want to go download it now?')){
+                document.location = appstore;
+              } else {
+                document.location = site;
+              }
+            }, 1000);
+            window.addEventListener('pagehide', preventPopup);
+          }
+          startApp();
+    </script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P6FLVN"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P6FLVN');</script>
+<!-- End Google Tag Manager -->
+<script type="text/javascript">
+adroll_adv_id = "BXOSQ44ZBRBDXBLW6AOM77";
+adroll_pix_id = "KXOU7OGPLRFLNL3ZZN3B5A";
+(function () {
+    var oldonload = window.onload;
+    window.onload = function(){
+       __adroll_loaded=true;
+       var scr = document.createElement("script");
+       var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+       scr.setAttribute('async', 'true');
+       scr.type = "text/javascript";
+       scr.src = host + "/j/roundtrip.js";
+       ((document.getElementsByTagName('head') || [null])[0] ||
+        document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+       if(oldonload){oldonload()}
+    };
+}());
+</script>
+
+</body>
+</html>
